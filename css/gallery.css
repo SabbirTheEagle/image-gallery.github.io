@@ -1,32 +1,35 @@
 body {
-  padding-top: 70px;
   font-family: "Concert One", cursive;
 }
+
 .jumbotron {
   color: #2c3e50;
-  background: linear-gradient(
-      rgba(255, 255, 255, 0.7),
-      rgba(255, 255, 255, 0.7)
-    ),
-    url("./img/mountain.jpg");
+  background: linear-gradient(rgba(255, 255, 255, 0.7),
+      rgba(255, 255, 255, 0.7)),
+    url("../img/mountain.jpg");
   background-size: cover;
   background-repeat: no-repeat;
 }
+
 .jumbotron a {
   text-decoration: none;
   /* color: #58dafb; */
   transition: 0.3s;
 }
+
 .jumbotron a:hover {
   color: coral;
 }
-.navbar-inverse .navbar-nav > li > a {
+
+.navbar-inverse .navbar-nav>li>a {
   color: white;
 }
-.navbar-inverse .navbar-nav > li > a:hover {
+
+.navbar-inverse .navbar-nav>li>a:hover {
   color: #58dafb;
   transition: 0.6s;
 }
+
 .navbar-inverse .navbar-brand {
   color: white;
 }
